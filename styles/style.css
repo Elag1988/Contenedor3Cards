@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+}
+
+body {
+    background-color: #F2DFD7;
+}
+
+h1{
+    margin: 5% ;
+    text-align: center;
+    color: #D95E29;
+    font-family: 'Tangerine', cursive;
+    font-size: 68px;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 22%;
+    height: auto;
+    background-color: #E8E8E4;
+    margin: 1.5% 5.5%;
+    border-radius: 10%;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5% ;
+    width: 90%;
+    border-radius: 15%;
+}
+
+.card h3 {
+    width: 90%;
+    height:2rem;
+    text-align: center;
+    margin-top: 1.2rem;
+    
+}
+
+.card p {
+    margin: 2rem 0 1.5rem 0;
+    padding-left: 0.8rem;
+    text-align: center;
+    width: 90%;
+
+}
+
+
+
