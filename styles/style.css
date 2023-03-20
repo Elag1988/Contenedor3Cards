@@ -9,52 +9,262 @@ body {
     background-color: #F2DFD7;
 }
 
-h1{
-    margin: 5% ;
-    text-align: center;
-    color: #D95E29;
-    font-family: 'Tangerine', cursive;
-    font-size: 68px;
-}
-
-.album {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card {
-    width: 22%;
-    height: auto;
-    background-color: #E8E8E4;
-    margin: 1.5% 5.5%;
-    border-radius: 10%;
-}
-
-.card img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:5% ;
-    width: 90%;
-    border-radius: 15%;
-}
-
-.card h3 {
-    width: 90%;
-    height:2rem;
-    text-align: center;
-    margin-top: 1.2rem;
+@media screen and (min-width: 375px) {
+    h1{
+        margin: 5% ;
+        text-align: center;
+        color: #D95E29;
+        font-family: 'Tangerine', cursive;
+        font-size: 48px;
+    }
     
+    .album {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    
+    .card {
+        width: 80%;
+        height: auto;
+        background-color: #E8E8E4;
+        margin: 3% 5.5%;
+        border-radius: 10%;
+    }
+    
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5% ;
+        width: 70%;
+        border-radius: 15%;
+    }
+    
+    .card h3 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.2rem;
+        
+    }
+    
+    .card p {
+        margin: 1rem auto 1.5rem auto;
+        padding-left: 0.8rem;
+        text-align: center;
+        width: 90%;
+    
+    }
 }
 
-.card p {
-    margin: 2rem 0 1.5rem 0;
-    padding-left: 0.8rem;
-    text-align: center;
-    width: 90%;
+@media screen and (min-width: 450px) {
+    h1{
+        margin: 5% ;
+        text-align: center;
+        color: #D95E29;
+        font-family: 'Tangerine', cursive;
+        font-size: 32px;
+    }
+    
+    .album {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    
+    .card {
+        width: 50%;
+        height: auto;
+        background-color: #E8E8E4;
+        margin: 3% 5.5%;
+        border-radius: 10%;
+    }
+    
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5% ;
+        width: 70%;
+        border-radius: 15%;
+    }
+    
+    .card h3 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.2rem;
+        
+    }
+    
+    .card p {
+        margin: 1rem auto 1.5rem auto;
+        padding-left: 0.8rem;
+        text-align: center;
+        width: 90%;
+    
+    }
+}
+
+@media screen and (min-width: 750px) {
+    h1{
+        margin: 5% ;
+        text-align: center;
+        color: #D95E29;
+        font-family: 'Tangerine', cursive;
+        font-size: 54px;
+    }
+    
+    .album {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: normal;
+    }
+    
+    .card {
+        width: 40%;
+        height: auto;
+        background-color: #E8E8E4;
+        margin: 3% 4.75%;
+        border-radius: 10%;
+    }
+    
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5% ;
+        width: 50%;
+        border-radius: 15%;
+    }
+    
+    .card h3 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.2rem;
+        font-size: 18px;
+        
+    }
+    
+    .card p {
+        margin: 1rem auto 1.5rem auto;
+        padding-left: 0.8rem;
+        text-align: center;
+        width: 90%;
+        font-size: 16px;
+    
+    }
 
 }
 
+@media screen and (min-width: 1024px) {
+    h1{
+        margin: 1% ;
+        text-align: center;
+        color: #D95E29;
+        font-family: 'Tangerine', cursive;
+        font-size: 60px;
+    }
+    
+    .album {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: normal;
+    }
+    
+    .card {
+        width: 28%;
+        height: auto;
+        background-color: #E8E8E4;
+        border-radius: 10%;
+        margin: 30.7188px 2.5% 30.7188px 2.5%;
+    }
+    
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5% ;
+        width: 90%;
+        border-radius: 15%;
+    }
+    
+    .card h3 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.2rem;
+        font-size: 24px;
+        
+    }
+    
+    .card p {
+        margin: 1rem auto 1.5rem auto;
+        padding-left: 0.8rem;
+        text-align: center;
+        width: 90%;
+        font-size: 18px;
+    
+    }
 
+}
 
+@media screen and (min-width: 1300px) {
+    h1{
+        margin: 1% ;
+        text-align: center;
+        color: #D95E29;
+        font-family: 'Tangerine', cursive;
+        font-size: 60px;
+    }
+    
+    .album {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: normal;
+    }
+    
+    .card {
+        width: 28%;
+        height: auto;
+        background-color: #E8E8E4;
+        border-radius: 10%;
+        margin: 30.7188px 2.5% 30.7188px 2.5%;
+    }
+    
+    .card img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5% ;
+        width: 70%;
+        border-radius: 15%;
+    }
+    
+    .card h3 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.2rem;
+        font-size: 30px;
+        
+    }
+    
+    .card p {
+        margin: 1rem auto 1.5rem auto;
+        padding-left: 0.8rem;
+        text-align: center;
+        width: 90%;
+        font-size: 24px;
+    
+    }
+
+}
